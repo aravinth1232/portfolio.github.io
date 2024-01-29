@@ -1,0 +1,151 @@
+
+
+
+@media screen and (max-width: 479px) and (min-width: 10px) {
+    
+    footer{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .contact{
+        /* background-color: #000000; */
+    
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items:space-between ; */
+        flex-wrap: wrap;
+        
+        h2{
+            display: flex;
+            /* padding: 1em 1em 0.5em 1em; */
+            /* justify-content: center; */
+            /* align-items:center ; */
+    
+            font-size: 1.5em;
+        }
+    
+        ul li{
+        
+            padding: 1em 0em 0.5em 1em;
+        }
+            /* border: 2px solid black; */
+     
+    
+    
+        a{
+            padding: 0em 0em 0em .2em;
+            /* border: 2px solid black; */
+       
+            
+        }
+    
+    }
+    
+    .contact div{
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid black; */
+        justify-content: center;
+        align-items:center;
+        /* padding: 1em 0em 1em 0em; */
+    
+    }
+    
+    .contact div:first-child ul{
+        /* border: 2px solid black; */
+        padding: 0em 3em 0em 0em;
+    }
+
+    .contact div:first-child,
+    .contact div:nth-child(2)
+    {
+        /* border: 2px solid black; */
+        padding: 0em 5em 0em 0em;
+        margin: 0em 1em 2em 0em;
+    
+    
+        h2{
+            /* border: 2px solid black;  */
+            padding: 1em 2em 0.5em 1em;
+    
+        }
+    }
+    
+    .contact div:nth-child(3)
+    {
+        /* border: 2px solid black; */
+        margin: 0em 0em 2em 0em;
+
+        h2{
+            /* border: 2px solid black;  */
+            padding: 0em 1em 0em 0em;
+        }
+        
+    }
+    .rights{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.2em;
+        background-color: black;
+        color: #ffffff;
+        padding: .4em 0em 0.4em 0em;
+        padding: .3em 0em;
+        bottom: 0;
+        position: sticky;
+           
+    }
+    
+    
+}
+
+
+
+
+@media screen and (max-width: 650px) and (min-width: 480px){
+
+
+    footer{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .contact{
+        /* background-color: #000000; */
+    
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;       
+    }
+
+    .gridone{
+        /* border: 2px solid black; */
+    
+        justify-self: center; 
+        
+        /* grid-area: one; */
+    }
+    .gridtwo{
+        justify-self: center; 
+        /* grid-area: two; */
+    }
+    .gridthree{
+        /* grid-area: three; */
+        justify-self: center; 
+        grid-column:1/3;
+        /* background-color: #000000; */
+        margin: 1em 0em 0em 0em;
+
+    }
+
+} 
