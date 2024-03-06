@@ -240,8 +240,13 @@ figure img{
        
         border-radius: 50%;
     
-        animation: round 2s linear infinite;
+        /* animation: round 2s linear infinite; */
     }  
+
+    #cpro img{
+        border-radius: 0;
+
+    }
 } 
 @keyframes round {
     0%{
@@ -281,7 +286,8 @@ figure img{
     
 }
 .landingPage,
-.loginPage{
+.loginPage,
+.Yoso{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -294,7 +300,6 @@ a{
     font-size: 20px;
     color: #095736;
 }
-
 
 
 }

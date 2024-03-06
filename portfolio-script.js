@@ -12,6 +12,7 @@ let project=document.getElementById("projects")
 
 let pag=document.getElementById("land")
 let log=document.getElementById("log")
+let yoso=document.getElementById("yoso")
 
 function changeBg(){
     
@@ -31,6 +32,7 @@ function changeBg(){
         projects.style.color="var(--white)"
         pag.style.color="var(--white)"
         log.style.color="var(--white)"
+        yoso.style.color="var(--white)"
 
 
 
@@ -47,8 +49,9 @@ function changeBg(){
     skills.style.backgroundColor="var(--navLight)";
     project.style.backgroundColor="var(--navLight)";
     projects.style.color="var(--black)"
-    pag.style.color="#2b47499d"
-    log.style.color="#2b47499d"
+    pag.style.color="#095736"
+    log.style.color="#095736"
+    yoso.style.color="#095736"
 
 
 
