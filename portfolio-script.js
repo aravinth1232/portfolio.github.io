@@ -13,6 +13,7 @@ let project=document.getElementById("projects")
 let pag=document.getElementById("land")
 let log=document.getElementById("log")
 let yoso=document.getElementById("yoso")
+let gmo=document.getElementById("gmo")
 
 function changeBg(){
     
@@ -33,6 +34,7 @@ function changeBg(){
         pag.style.color="var(--white)"
         log.style.color="var(--white)"
         yoso.style.color="var(--white)"
+        gmo.style.color="var(--white)"
 
 
 
@@ -52,6 +54,7 @@ function changeBg(){
     pag.style.color="#095736"
     log.style.color="#095736"
     yoso.style.color="#095736"
+    gmo.style.color="#095736"
 
 
 

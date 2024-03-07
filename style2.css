@@ -287,7 +287,8 @@ figure img{
 }
 .landingPage,
 .loginPage,
-.Yoso{
+.Yoso,
+.gmo{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
