@@ -289,7 +289,8 @@ figure img{
 .loginPage,
 .Yoso,
 .gmo,
-.todo{
+.todo,
+.clock{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

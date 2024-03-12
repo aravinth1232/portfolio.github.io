@@ -15,6 +15,7 @@ let log=document.getElementById("log")
 let yoso=document.getElementById("yoso")
 let gmo=document.getElementById("gmo")
 let todo=document.getElementById("todo")
+let clock=document.getElementById("clock")
 
 function changeBg(){
     
@@ -37,6 +38,7 @@ function changeBg(){
         yoso.style.color="var(--white)"
         gmo.style.color="var(--white)"
         todo.style.color="var(--white)"
+        clock.style.color="var(--white)"
 
 
 
@@ -58,6 +60,7 @@ function changeBg(){
     yoso.style.color="#095736"
     gmo.style.color="#095736"
     todo.style.color="#095736"
+    clock.style.color="#095736"
 
 
 
