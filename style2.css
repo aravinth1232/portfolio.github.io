@@ -10,23 +10,28 @@
 
     
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
+
+
+.menu{
+    display: none;
+}
   
   /* Track */
   ::-webkit-scrollbar-track { 
-    border-radius: 10px;
+    border-radius: 100px;
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(10, 3, 3); 
-    border-radius: 10px;
+    background: rgb(151, 125, 125); 
+    border-radius: 100px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #1a080898; 
+    background: #302c2c98; 
   }
 }
 :root{
@@ -81,6 +86,11 @@ header .first{
     align-items: center;
 }
 
+
+.menu{
+    display: none;
+}
+
 /* 2.nav */
 
 .nav{
@@ -101,6 +111,9 @@ nav ul{
 
 }
 
+.sidemenu{
+    display: none;
+}
 
 nav ul li{
     background-color: #000000;
@@ -527,6 +540,15 @@ footer{
            
     }
     
+    .sidemenu{
+        display: none;
+    
+    }
+    .menu{
+        display: none;
+    }
+
+
     
 }
 
@@ -572,7 +594,14 @@ footer{
         margin: 1em 0em 0em 0em;
 
     }
-
+    .sidemenu{
+        display: none;
+    
+    }
+    .menu{
+        display: none;
+    }
+    
 } 
 
 
@@ -588,6 +617,8 @@ footer{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+
+        display: none;
 
         
     
@@ -637,14 +668,135 @@ footer{
             /* font-weight: 1000; */
     
         }
+
+
+        .menu{
+            display: flex;
+        }
+
+       
+        
+        .mecheck{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid black; */
+            justify-content: center;
+            align-items: center;
+        }
+        .checkbox{
+            /* border: 2px solid black; */
+            padding: 0em 0.8em 0em 0em ;
+
+        }
+        .menu button{
+            background-color:transparent ;
+            border: none;
+            /* padding: 0em 0em 0em 0.5em; */
+        }
+        .menu img{
+            width: 40px;
+            height: 40px;
+            animation: none;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidemenu{
+   
+    background-color: rgb(180, 128, 184);
+    background-color: var(--navLight);
+    position: absolute;
+    top:  0;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 100px 0px 0px;
+
+    /* border: 2px solid black;  */
+}
+
+.sideone{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: stretch;
+    align-self: center;
+    width: 100%;
+    padding: 0;
+}
+
+.sideone nav{
+    width: 100%;
+}
+
+
+.sideone nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    /* border: 2px solid black; */
+    border-radius: 0px;
+    padding: 0;
+}
+.sideone nav ul li{
     
+    /* border: 2px solid black; */
+    background-color: transparent;
+    color: #000000;
+    border-radius: 0px;
+}
+
+.sideone nav ul li a{
+    color: #000000;
+    /* border: 2px solid black; */
+    width: 100%;
+    font-size: 2em;
+    font-weight: 600;
+}
 
 
 
 
+.sidebutton {
+    display: flex;
+    align-self: flex-start;
+    margin: 2em 2em 0em 0em;
+    /* border: 2px solid black; */
+    
+    /* margin: 1em 2em 0em 0em; */
 
 
+    button{
+        background-color: transparent;
+        border: none;
+    }
 
+}
+
+ .sidemenu img{
+    width: 30px;
+    height: 30px;
+ }
+
+
+.sidemenu{
+    display: none;
+
+}
 
 
 

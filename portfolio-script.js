@@ -61,11 +61,24 @@ function changeBg(){
     gmo.style.color="#095736"
     todo.style.color="#095736"
     clock.style.color="#095736"
+}
+    }
 
+const side = document.getElementById("sidemenu");
+const menu =document.getElementById("menu")
+
+function openmenu(){
+    // console.log("hello")
+    side.style.display="flex";
+    menu.style.display="none";
 
 
 }
-    
 
-
+function closemenu(){
+    side.style.display="none";
+    menu.style.display="flex";
 }
+
+
+

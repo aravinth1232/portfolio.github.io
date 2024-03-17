@@ -23,9 +23,13 @@
         <h1 id="topic">Portfolio</h1>
     </div>
     
-    <div class="checkbox">
+    <div class="mecheck" >
+        <div class="checkbox">
         <label for="checkbox" id="label">Dark mode?</label>
         <input type="checkbox" name="checkbox" id="checkbox"    onchange="changeBg()">
+        </div>
+    <div class="menu" id="menu"><button id="menubtn" onclick="openmenu()"><img class="snimg" src="2.png" alt="" ></button></div>
+            
     </div>          
 </header>
 
@@ -38,6 +42,25 @@
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
+
+<div class="sidemenu" id="sidemenu">
+    <div class="sideone">
+
+        <nav class="sidenav" id="sidenav">
+             <ul>
+                 <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav>
+    </div>
+    <div class="sidebutton">
+    <button id="sidebtn" onclick="closemenu()"><img src="close.png"></button>
+</div>
+
+</div>
+
 
 <main>
 
@@ -150,5 +173,6 @@
 </div>
 
 <script src="portfolio-script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
