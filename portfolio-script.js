@@ -10,6 +10,7 @@ let info =document.getElementById("info")
 let skills=document.getElementById("skills")
 let project=document.getElementById("projects")
 
+let restaur=document.getElementById("restaur")
 let pag=document.getElementById("land")
 let log=document.getElementById("log")
 let yoso=document.getElementById("yoso")
@@ -33,6 +34,9 @@ function changeBg(){
         skills.style.backgroundColor="var(--bgDark)";
         project.style.backgroundColor="var(--bgDark)";
         projects.style.color="var(--white)"
+        
+        restaur.style.color
+        ="var(--white)"
         pag.style.color="var(--white)"
         log.style.color="var(--white)"
         yoso.style.color="var(--white)"
@@ -55,6 +59,8 @@ function changeBg(){
     skills.style.backgroundColor="var(--navLight)";
     project.style.backgroundColor="var(--navLight)";
     projects.style.color="var(--black)"
+    
+    restaur.style.color="#095736"
     pag.style.color="#095736"
     log.style.color="#095736"
     yoso.style.color="#095736"
@@ -72,12 +78,15 @@ function openmenu(){
     side.style.display="flex";
     menu.style.display="none";
 
+    side.style.bottom= "0%";
+
 
 }
 
 function closemenu(){
     side.style.display="none";
     menu.style.display="flex";
+    side.style.bottom= "100%";
 }
 
 

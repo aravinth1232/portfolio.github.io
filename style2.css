@@ -298,6 +298,7 @@ figure img{
     padding: 1em 1em 1em 1em;
     
 }
+.restaurant,
 .landingPage,
 .loginPage,
 .Yoso,
@@ -713,17 +714,21 @@ footer{
 
 
 .sidemenu{
-   
+   display: flex !important;
+
     background-color: rgb(180, 128, 184);
     background-color: var(--navLight);
     position: absolute;
-    top:  0;
-    width: 60%;
+    bottom:  100%;
+
+    width: 70%;
     height: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
     border-radius: 0px 100px 0px 0px;
+    transition: 0.8s;
+    z-index: 1;
 
     /* border: 2px solid black;  */
 }
